@@ -1,2 +1,13 @@
 import "{{ site.theme }}"
 
+body {
+  .headshot {
+    border-radius: 50%;
+  }
+  
+  .wrapper {
+    .introduction {
+      display: flex;
+    }
+  }
+}
