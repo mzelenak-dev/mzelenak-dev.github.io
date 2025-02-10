@@ -1,10 +1,15 @@
 import "{{ site.theme }}"
 
 body {
-  .headshot {
-    border-radius: 50%;
+  p, h1, h2, h3, h4, h5 {
+    font-family: $helveticaNeue;
   }
   
+  .headshot {
+    border-radius: 10%;
+    max-width: 150px;
+  }
+
   .wrapper {
     .introduction {
       display: flex;
