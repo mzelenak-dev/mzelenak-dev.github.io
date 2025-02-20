@@ -4,3 +4,4 @@
 
 layout: home
 ---
+Hi friends, this is my home page!
